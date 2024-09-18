@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: "Playfair Display", serif;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+.kopiko-head{
+    width: 100%;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.header p{
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+.tt{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 370px;
+    padding-right: 370px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    margin-top: 60px;
+    border-top: 1px solid;
+    border-color: rgb(153, 153, 153);
+}
+.hover:hover {
+    color: red;
+}
+.main-head{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.img1{
+    width: 100%;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.text-1{
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 130px;
+}
+.img2{
+    width: 890px;
+    height: 495;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 50px;
+}
+.footer{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 500px;
+}
+.img-footer{
+    margin-top: 250px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.last-text{
+    color: rgb(153, 153, 153);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
